@@ -32,11 +32,14 @@
             <version>1.4</version>
         </dependency>
         
-        <dependency>
+       <dependency>
     <groupId>net.proteanit.sql</groupId>
     <artifactId>rs2xml</artifactId>
     <version>1.0</version>
-    </dependency>
+    <scope>system</scope>
+    <systemPath>${basedir}/lib/rs2xml.jar</systemPath>
+</dependency>
+
     </dependencies>
     
     
